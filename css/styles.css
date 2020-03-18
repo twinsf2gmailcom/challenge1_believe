@@ -4,3 +4,77 @@
 /* font-family: 'Satisfy', cursive; */
 @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+  }
+  
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#circle {
+    width: 8vh;
+    height: 8vh;
+    -webkit-border-radius: 4vh;
+    -moz-border-radius: 4vh;
+    border-radius: 4vh;
+    background: rgb(227,194,56);
+    margin: 1vh;
+  }
+
+.navbar, .nav_bar {
+    background-color: rgb(238,238,238);
+    height: 10vh;
+}
+
+.nav-pills>li>a{
+    color:  #000000;
+    background-color: #FFFFFF;
+    padding: 1.5vh;
+    margin: 1.5vh;
+}
+
+.nav-pills>li.active>a{
+    background-color: rgb(227,194,56);
+    color:  #000000;
+}
+
+.nav-pills>li>a:hover {
+    background-color: rgb(227,194,56);
+    color:  #000000;
+}
+
+
+  .jumbotron {
+    background-image: url("../img/kawin-harasai-2Ev2aUB8NJI-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 20vh;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+  }
+  
+  .socialmedia {
+      height: 6vh;
+      padding: 1vh
+  }
+
+  .footer {
+    background-color: rgb(227,194,56);
+    height: 12vh;
+  }
+
+  .foot_text {
+    margin-top: 3vh;
+  }
